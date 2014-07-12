@@ -1,0 +1,8 @@
+{
+    "name": "manadev/magento-core",
+    "type": "magento-module",
+    "description": "Core module used in Manadev modules.",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
