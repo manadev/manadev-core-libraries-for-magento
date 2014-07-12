@@ -1,0 +1,38 @@
+code                                   app/code/local/Mana/Db
+tests                                  tests/Mana/Db/Test
+tests-data                             tests/data/Mana/Db
+module.xml                             app/etc/modules/Mana_Db.xml
+translate.csv                          app/locale/en_US/Mana_Db.csv
+js/scripts.js                          js/mana/db.js
+js/scripts.js.map                      js/mana/db.js.map
+js/scripts.min.js                      js/mana/db.min.js
+js/src                                 js/src/Mana/Db
+frontend/layout.xml                    app/design/frontend/base/default/layout/mana_db.xml
+frontend/template                      app/design/frontend/base/default/template/mana/db
+frontend/js/scripts.js                 skin/frontend/base/default/js/mana_db.js
+frontend/css/styles.css                skin/frontend/base/default/css/mana_db.css
+
+
+frontend/images                        skin/frontend/base/default/images/mana_db
+
+<!-- rwd theme module frontend files (having impact on store pages) -->
+rwd/layout.xml                         app/design/frontend/rwd/default/layout/mana_db.xml
+rwd/template                           app/design/frontend/rwd/default/template/mana/db
+rwd/js/scripts.js                      skin/frontend/rwd/default/js/mana_db.js
+rwd/css/styles.css                     skin/frontend/rwd/default/css/mana_db.css
+rwd/images                             skin/frontend/rwd/default/images/mana_db
+
+<!-- module backend files (having impact on Admin Panel) -->
+backend/layout.xml                     app/design/adminhtml/default/default/layout/mana_db.xml
+backend/template                       app/design/adminhtml/default/default/template/mana/db
+backend/js/scripts.js                  skin/adminhtml/default/default/js/mana_db.js
+backend/css/styles.css                 skin/adminhtml/default/default/css/mana_db.css
+backend/images                         skin/adminhtml/default/default/images/mana_db
+
+
+jquery/scripts                         js/jquery
+jquery/frontend                        skin/frontend/base/default/css/jquery
+jquery/backend                         skin/adminhtml/default/default/css/jquery
+
+m-classes/.htaccess                    js/m-classes/.htaccess
+tests-db/Bootstrap.php               tests/Bootstrap.php
